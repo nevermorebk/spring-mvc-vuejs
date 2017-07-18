@@ -14,18 +14,18 @@ import java.util.Date;
 
 public class MessageDetail {
 
-    private Date Date;
+    private String date;
 
     private String title;
 
     private String content;
 
-    public java.util.Date getDate() {
-        return Date;
+    public String getDate() {
+        return date;
     }
 
-    public void setDate(java.util.Date date) {
-        Date = date;
+    public void setDate(Date date) {
+        date = date;
     }
 
     public String getTitle() {

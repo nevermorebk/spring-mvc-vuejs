@@ -18,11 +18,11 @@ public class Message {
 
     private List<MessageDetail> list;
 
-    public String getTitleCommon() {
+    public String getTitle() {
         return title;
     }
 
-    public void setTitleCommon(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 

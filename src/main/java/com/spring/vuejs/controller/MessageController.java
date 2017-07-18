@@ -3,10 +3,13 @@
  **************************************************************************/
 package com.spring.vuejs.controller;
 
+import com.spring.vuejs.model.Message;
 import com.spring.vuejs.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 /**
  * Author : Quang Tran Dang
@@ -27,7 +30,7 @@ public class MessageController {
     }
 
     @GetMapping(value = {"/get-message"})
-    public Object getMessage(){
+    public List<Message> getMessage(){
         return service.getMessage();
     }
 
