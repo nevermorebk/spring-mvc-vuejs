@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VueJS Tutorials</title>
+    <link href="/resources/css/styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="vue-app">
+    <!--<h1>{{greet('night')}}</h1>
+    <p v-html="websiteTag"></p>
+    <input type="text" v-bind:value="name">-->
+    <!--h1>Event</h1>
+    <p>My age iss {{age}}</p>
+    <button @click="add(1)">Add</button>
+    <button @click="subtract(1)">Subtract</button>
+    <button @dblclick="add(10)">Add 10</button>
+    <button @dblclick="subtract(10)">Subtract 10</button>
+
+    <div id="canvas" @mousemove="updateXY">
+        {{x}}, {{y}}
+    </div>-->
+
+    <!--<h1>Key Broad Event</h1>
+    <label>Name: </label>
+    <input type="text" @keyup.enter="logName" v-model="name">
+    <span>{{name}}</span><br/>
+    <label>Age: </label>
+    <input type="text" @keyup.enter="logAge" v-model="age">
+    <span>{{age}}</span>-->
+
+    <!--<h1>Dynamic CSS</h1>
+    <h2>Example 1</h2>
+    &lt;!&ndash;<div  v-bind:class="{available: available}" @click="available=!available">
+        <span>Faker</span>
+    </div>&ndash;&gt;
+
+    <h2>Examle 2</h2>
+    <div v-bind="compClasses">
+        <span>Faker</span>
+    </div>-->
+
+    <!--<h1>Conditionals</h1>
+    <button @click="error=!error">Toggle Error</button>
+    <button @click="success=!success">Toggle Success</button>
+
+    <p v-if="success">Hello Success</p>
+    <p v-else-if="error">Hello Error</p>-->
+    <!--<p v-show="success">Hello Success</p>-->
+
+    <!--<h1>Looping through lists</h1>
+    <ul>
+        <li v-for="x in characters">{{x}}</li>
+    </ul>
+
+    <ul>
+        <li v-for="(ninja, index) in ninias">{{index+1}}. {{ninja.name}} - {{ninja.age}}</li>
+    </ul>
+
+    <template v-for="((ninja, index) in ninjas">
+
+    </template>-->
+
+    <h1>Multiple Vue Instances</h1>
+
+    <div id="vue-app-one">
+        <greeting></greeting>
+    </div>
+
+    <div id="vue-app-two">
+    </div>
+
+</div>
+
+
+
+<script src="/vue/app.js"></script>
+</body>
+</html>

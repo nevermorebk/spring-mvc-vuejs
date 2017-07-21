@@ -41,7 +41,7 @@ public class CommonService {
     }
 
     public String getMessageFromBind() {
-        String restUrl = "http://bind-dl.digitalstage.jp/bindclient/sitetheater/notification.json";
+        String restUrl = "http://netlife.vn/notification.json";
 
         HttpGet httpGet = createGetConnectivity(restUrl);
 

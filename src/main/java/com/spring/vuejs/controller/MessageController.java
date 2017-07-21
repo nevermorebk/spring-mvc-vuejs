@@ -3,7 +3,7 @@
  **************************************************************************/
 package com.spring.vuejs.controller;
 
-import com.spring.vuejs.model.Message;
+import com.spring.vuejs.model.News;
 import com.spring.vuejs.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -29,8 +29,8 @@ public class MessageController {
         return new ModelAndView("message");
     }
 
-    @GetMapping(value = {"/get-message"})
-    public List<Message> getMessage(){
+    @GetMapping(value = {"/notifications"})
+    public List<News> getMessage(){
         return service.getMessage();
     }
 

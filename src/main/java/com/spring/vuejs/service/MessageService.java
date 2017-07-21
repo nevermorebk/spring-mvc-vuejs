@@ -3,7 +3,7 @@
  **************************************************************************/
 package com.spring.vuejs.service;
 
-import com.spring.vuejs.model.Message;
+import com.spring.vuejs.model.News;
 
 import java.util.List;
 
@@ -16,6 +16,6 @@ import java.util.List;
 
 public interface MessageService {
 
-    List<Message> getMessage();
+    List<News> getMessage();
 
 }
